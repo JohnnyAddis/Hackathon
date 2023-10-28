@@ -497,7 +497,7 @@
       <string>2023 Bonus Earning Progress:</string>
      </property>
     </widget>
-    <widget class="QWidget" name="salesLineGraph" native="true">
+    <widget class="MplWidget" name="salesLineGraph" native="true">
      <property name="geometry">
       <rect>
        <x>19</x>
@@ -510,7 +510,7 @@
       <string notr="true">background-color: rgb(239, 162, 73)</string>
      </property>
     </widget>
-    <widget class="QWidget" name="revenuePiechart" native="true">
+    <widget class="MplWidget" name="revenuePiechart" native="true">
      <property name="geometry">
       <rect>
        <x>480</x>
@@ -523,7 +523,7 @@
       <string notr="true">background-color: rgb(239, 162, 73)</string>
      </property>
     </widget>
-    <widget class="QWidget" name="bonusPiechart" native="true">
+    <widget class="MplWidget" name="bonusPiechart" native="true">
      <property name="geometry">
       <rect>
        <x>480</x>
@@ -617,6 +617,14 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
